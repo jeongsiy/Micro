@@ -1,0 +1,8 @@
+button{
+    transform: rotate(10deg);
+    text-align: center;
+}
+
+custom-button{
+    background-color:aqua;
+}
