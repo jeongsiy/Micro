@@ -1,8 +1,10 @@
 button{
-    transform: rotate(10deg);
+    transition: transform 0.3s;
     text-align: center;
+    color:blue;
+    outline: orange;
 }
 
-custom-button{
-    background-color:aqua;
+custom-button:active{
+    transform: scale(0.95);
 }
